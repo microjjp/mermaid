@@ -1,0 +1,31 @@
+flowchart TD
+    %% Created using Mermaid Chat
+    %% Mermaid Chart VS Code Plugin
+    %% https://docs.mermaidchart.com/blog/posts/mermaid-chart-vs-code-plugin-create-and-edit-mermaid-js-diagrams-in-visual-studio-code
+    %% Nodes
+    A("fab:fa-youtube Started Guide")
+    B["fab:fa-youtube Make Flow Chart"]
+    n1@{icon: "fa:gem", pos: "b", h:24}
+    C("fa:fa-book-open Make Learn More")
+    D{Use the Editor}
+    n2(Many shapes)@{shape: delay}
+    E(fa:fa-shapes Visual Editor)
+    F(fa:fa-chevron-up Add node in toolbar)
+    G(fa:fa-comment-dots AI Chat)
+    H(fa:fa-arrow-left AI in side menu)
+    I("fa:fa-code Text")
+    J(fa:fa-arrow-left Type Syntax)
+
+    %% Edge connection between nodes
+    A --> B --> C --> n1 & D & n2
+    D -- Build and Design --> E --> F
+    D -- Use AI --> G -->H
+    D -- Memaid js --> I --> J
+
+    %% Individual node styling
+    style E color:#FFFFFF, fill:#AA00FF, stroke:#AA00AB
+    style G color:#FFFFFF, fill:#00C853, stroke:#00C853
+    style I color:#FFFFFF, stroke:#2962FF
+
+
+
